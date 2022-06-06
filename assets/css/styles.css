@@ -1,55 +1,88 @@
+body{
+    background: rgb(162, 212, 255);
 
-<body>
-<header>
-    <a href="" class="logo">
-        <img src="assets/img/logo.png" alt="logo de empresa">
-    </a>
-<nav>
-    <a href="" class="link">Contacto</a>
-</nav>
-</header>
+}
+header{
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: rgb(162, 212, 255);
+    font-family: 'Ubuntu', sans-serif;
+}
+.logo{
+    display: flex;
+}
 
-<h1>Tico Software Development</h1>
-<div class="Power">
-    <h2>Le da poder a tu negocio.</h2>
-</div>
+.logo img{
+    height: 50%;
+}
 
 
-<div class="avatar">
-    <img src="assets/img/icon.png" alt="icon">
-</div>
 
-<section class="section-long">
-    <div class="container">
-        <div class="column-centered">
-            <div class="column-three-fifth">
-                <h3>¡Hola! Les habla el equipo de desarrollo de Tico Software Development. Un gusto conocerlos.</h2>
-                <p>Somos una agencia digital que ofrece servicios de desarrollo, diseño e innovación, además de ofrecer un excelente servicio al cliente y una herramienta final personalizada.</p>
-                <p>Aprovechamos la experiencia de las personas empleadas para hacer diseños confiables y también la juventud para no perder de vista la innovación y el avance que el cliente necesita y sus clientes en cada área de negocio.</p>
-                <p>Por parte de los trabajadores, aunque se aprovechará de buena manera al personal con experiencia, la capacitación se dará previo a la entrada a la empresa.</p>
-            </div>
-        </div>
-        <div class="continuacion">
-            <div class="titulo-listas">
-                <h2>Lenguajes que manejamos en:</h2>
-                <div class="frontend">
-                    <h3>Front End</h3>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul>
-                </div>
-                <div class="backend">
-                    <h3>Back End</h3>
-                </div>
-                <ul>
-                    <li>JavaScript</li>
-                    <li>Python</li>
-                </ul>
-                </div>
-        </div>
-    </div>
-</section>
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    color: rgb(0, 14, 61);
+}
+.Power{
+    font-family: 'Tai Heritage Pro', serif;
+    text-align: center;
+}
 
-</body>
+.avatar{
+    display: flex;
+    justify-content: center;
+}
+.avatar img{
+    width: 450px;
+    margin: 5%;
+}
+.section-long{
+height: 650px;
+background-color: rgb(0, 14, 61);
+padding: 0%;
+}
+
+.container{
+    padding-top: 5%;
+    padding-left: 23%;
+    padding-right: 23%;
+    
+}
+
+.column-three-fifth{
+    line-height: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    color: rgb(162, 212, 255);
+    padding-left: 20%;
+    padding-right: 20%;
+}
+body::-webkit-scrollbar {
+    width: 10px;               
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(56, 56, 56);     
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 14, 61);
+    border-radius: 30px;      
+    border: 3px solid rgb(26, 26, 26); 
+}
+
+.continuacion{
+    padding-top: 20PX;
+    background-color: rgb(162, 212, 255);
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 700px;
+    border-radius: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(0, 14, 61);
+}
