@@ -86,3 +86,6 @@ body::-webkit-scrollbar-thumb {
     font-family: 'Ubuntu', sans-serif;
     color: rgb(0, 14, 61);
 }
+footer{
+    text-align: end;
+}
