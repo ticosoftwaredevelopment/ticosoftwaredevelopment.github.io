@@ -41,15 +41,15 @@ h1{
     margin: 5%;
 }
 .section-long{
-height: 650px;
+height: 3%;
 background-color: rgb(0, 14, 61);
-padding: 0%;
+
 }
 
 .container{
     padding-top: 5%;
-    padding-left: 23%;
-    padding-right: 23%;
+    padding-left: 25%;
+    padding-right: 20%;
     
 }
 
@@ -76,16 +76,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 .continuacion{
-    padding-top: 20PX;
     background-color: rgb(162, 212, 255);
-    display: flex;
-    justify-content: center;
-    height: 500px;
-    width: 700px;
-    border-radius: 10px;
+    line-height: 30px;
     font-family: 'Ubuntu', sans-serif;
+    text-align: center;
     color: rgb(0, 14, 61);
-}
-footer{
-    text-align: end;
+    padding-left: 20%;
+    padding-right: 20%;
 }
